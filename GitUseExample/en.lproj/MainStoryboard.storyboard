@@ -30,22 +30,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9o-aA-Pxz">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Temp button">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="i9o-aA-Pxz" firstAttribute="centerX" secondItem="Z4f-Ru-VOf" secondAttribute="centerX" type="default" id="QZN-oy-XHi"/>
                             <constraint firstItem="ZJ4-DG-EcF" firstAttribute="centerX" secondItem="Z4f-Ru-VOf" secondAttribute="centerX" type="default" id="U5e-df-Irt"/>
-                            <constraint firstAttribute="bottom" secondItem="i9o-aA-Pxz" secondAttribute="bottom" constant="83" id="VMd-fD-U5c"/>
                             <constraint firstItem="ZJ4-DG-EcF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="175" id="XBy-m4-9Kd"/>
                             <constraint firstItem="ZJ4-DG-EcF" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="n8j-3V-b9l"/>
                             <constraint firstAttribute="bottom" secondItem="Z4f-Ru-VOf" secondAttribute="bottom" constant="159" id="w4S-Kv-aPR"/>
